@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"name"				"Hitmarkers"
+	"version"			"1"
+	"up_date"			""
+	"author_name"		"Soleedus"
+	"author_email"		"soleedus@gmail.com"
+	"author_url"		"http://www.soleedus.me"
+	"info"				"Hitmarkers for NPCs and players."
+}
