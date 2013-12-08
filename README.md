@@ -11,4 +11,4 @@ Just drop the addon into your addons folder and it should run as a legacy addon.
 How about the Workshop?
 =======================
 
-Workshop support will be added in the near future.
+Simple Hitmarker is available in the Steam Workshop @ http://steamcommunity.com/sharedfiles/filedetails/?id=201942905. Just hit subscribe and you're good to go.
