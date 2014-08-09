@@ -1,6 +1,5 @@
 resource.AddFile( "sound/hitmarker.wav" ) -- required for surface.PlaySound()
 
-local hitSound = CreateSound( LocalPlayer(), "/hitmarker.wav" )
 local DrawHitmarkers = CreateClientConVar( "hitmarkers_enable", 1 )
 local NPCHitmarkers = CreateClientConVar( "hitmarkers_npc", 1 )
 local PlayerHitmarkers = CreateClientConVar( "hitmarkers_player", 1 )

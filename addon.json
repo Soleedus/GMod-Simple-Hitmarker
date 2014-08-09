@@ -1,0 +1,14 @@
+{
+	"title"		:	"Simple Hitmarkers",
+	"type"		:	"effects",
+	"tags"		:	[ "fun", "cartoon" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*",
+		"*.txt*",
+		"*.md",
+		"*LICENSE*"
+	]
+}
