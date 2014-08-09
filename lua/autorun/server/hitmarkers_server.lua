@@ -15,4 +15,4 @@ local function HitMarkersServer( objEnt, dmgInfo )
 end
 hook.Add( "EntityTakeDamage", "Hitmarkers.detect", HitMarkersServer );
  
-print( "[Hitmarkers loaded.]" )
+print( "[Simple Hitmarkers loaded...]" )

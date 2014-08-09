@@ -1,5 +1,6 @@
-resource.AddFile( "sound/hitsound.wav" ) -- required for surface.PlaySound()
+resource.AddFile( "sound/hitmarker.wav" ) -- required for surface.PlaySound()
 
+local hitSound = CreateSound( LocalPlayer(), "/hitmarker.wav" )
 local DrawHitmarkers = CreateClientConVar( "hitmarkers_enable", 1 )
 local NPCHitmarkers = CreateClientConVar( "hitmarkers_npc", 1 )
 local PlayerHitmarkers = CreateClientConVar( "hitmarkers_player", 1 )
@@ -34,6 +35,7 @@ net.Receive( "Hitmarkers.hit", function( iLen )
 		alpha = 255;
 	end
 
-	surface.PlaySound( "/hitsound.wav" ) -- played on hitmarker draw
+	--surface.PlaySound( "/hitmarker.wav" ) -- old
 
+	LocalPlayer():EmitSound("hitmarker.wav", 500, 100, 1) -- provides vars for volume
 end );
